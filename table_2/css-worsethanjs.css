@@ -1,0 +1,90 @@
+/* work_pidar_stylesheet.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  caption {
+    text-align: left;
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #3498db; /* A modern blue */
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 10px; /* Rounded top left corner */
+    border-top-right-radius: 10px; /* Rounded top right corner */
+  }
+  
+  thead th {
+    background-color: #eaf2f8; /* Light blue background for header */
+    color: #3498db; /* Dark blue text color */
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #3498db; /* Dark blue border */
+  }
+  
+  thead th:first-child {
+    border-top-left-radius: 10px; /* Rounded top left corner */
+  }
+  
+  thead th:last-child {
+    border-top-right-radius: 10px; /* Rounded top right corner */
+  }
+  
+  tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #3498db; /* Dark blue border */
+    background-color: #fff; /* White background for table cells */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f6f9fc; /* Zebra striping for even rows */
+  }
+  
+  .yAxis, .xAxis {
+    font-weight: bold;
+    background-color: #3498db; /* Dark blue background for axes */
+    color: white;
+  }
+  
+  /* Hover effect for rows */
+  tbody tr:hover {
+    background-color: #d4e6f1; /* Lighter blue for hover */
+  }
+  
+  /* Back to top link */
+  .back a {
+    display: block;
+    width: 100px;
+    padding: 8px;
+    background: #3498db; /* Matching blue */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .back a:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* Responsive table */
+  @media screen and (max-width: 768px) {
+    table {
+      box-shadow: none;
+    }
+  }
+  
